@@ -1,0 +1,50 @@
+Kaneria, Dhrupad Chandrakanth
+Iteration 1
+Classifier h = I(x > 2.75)
+Error = 0.25
+Alpha = 0.55
+Normalization Factor Z = 0.87
+Pi after normalization = 0.50, 0.17, 0.17, 0.17
+Boosted Classifier: f(x) = 0.55 * I(x>2.75)
+Boosted Classifier Error = 0.67
+Bound on Error = 0.87
+
+Iteration 2
+Classifier h = I(x < 1.5)
+Error = 0.33
+Alpha = 0.35
+Normalization Factor Z = 0.94
+Pi after normalization = 0.38, 0.12, 0.25, 0.25
+Boosted Classifier: f(x) = 0.55 * I(x>2.75)  +  0.35 * I(x<1.5)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.82
+
+Iteration 3
+Classifier h = I(x < 4.0)
+Error = 0.38
+Alpha = 0.26
+Normalization Factor Z = 0.97
+Pi after normalization = 0.30, 0.17, 0.20, 0.33
+Boosted Classifier: f(x) = 0.55 * I(x>2.75)  +  0.35 * I(x<1.5)  +  0.26 * I(x<4.0)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.79
+
+Iteration 4
+Classifier h = I(x > 2.75)
+Error = 0.30
+Alpha = 0.42
+Normalization Factor Z = 0.92
+Pi after normalization = 0.50, 0.12, 0.14, 0.24
+Boosted Classifier: f(x) = 0.55 * I(x>2.75)  +  0.35 * I(x<1.5)  +  0.26 * I(x<4.0)  +  0.42 * I(x>2.75)
+Boosted Classifier Error = 0.64
+Bound on Error = 0.72
+
+Iteration 5
+Classifier h = I(x < 4.0)
+Error = 0.36
+Alpha = 0.29
+Normalization Factor Z = 0.96
+Pi after normalization = 0.39, 0.17, 0.11, 0.33
+Boosted Classifier: f(x) = 0.55 * I(x>2.75)  +  0.35 * I(x<1.5)  +  0.26 * I(x<4.0)  +  0.42 * I(x>2.75)  +  0.29 * I(x<4.0)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.69

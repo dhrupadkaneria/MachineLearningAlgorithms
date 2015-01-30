@@ -1,0 +1,100 @@
+Kaneria, Dhrupad Chandrakanth
+Iteration 1
+Classifier h = I(x < 1.3792905)
+Error = 0.32
+Alpha = 0.38
+Normalization Factor Z = 0.93
+Pi after normalization = 0.03, 0.06, 0.03, 0.03, 0.03, 0.06, 0.06, 0.03, 0.03, 0.03, 0.03, 0.03, 0.06, 0.03, 0.03, 0.06, 0.03, 0.06, 0.06, 0.03, 0.06, 0.03, 0.03, 0.03, 0.03
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.93
+
+Iteration 2
+Classifier h = I(x < 0.3782415)
+Error = 0.39
+Alpha = 0.22
+Normalization Factor Z = 0.98
+Pi after normalization = 0.02, 0.08, 0.02, 0.02, 0.02, 0.08, 0.08, 0.02, 0.02, 0.02, 0.02, 0.02, 0.05, 0.04, 0.04, 0.05, 0.04, 0.05, 0.05, 0.04, 0.05, 0.04, 0.04, 0.04, 0.02
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.91
+
+Iteration 3
+Classifier h = I(x > 0.26046)
+Error = 0.38
+Alpha = 0.25
+Normalization Factor Z = 0.97
+Pi after normalization = 0.03, 0.06, 0.03, 0.03, 0.03, 0.06, 0.06, 0.02, 0.02, 0.02, 0.02, 0.02, 0.07, 0.03, 0.03, 0.07, 0.03, 0.07, 0.07, 0.03, 0.07, 0.03, 0.03, 0.03, 0.03
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)
+Boosted Classifier Error = 0.60
+Bound on Error = 0.88
+
+Iteration 4
+Classifier h = I(x < 0.086185)
+Error = 0.37
+Alpha = 0.26
+Normalization Factor Z = 0.97
+Pi after normalization = 0.03, 0.09, 0.03, 0.03, 0.03, 0.05, 0.05, 0.03, 0.03, 0.03, 0.03, 0.03, 0.05, 0.04, 0.04, 0.05, 0.04, 0.05, 0.05, 0.04, 0.05, 0.04, 0.04, 0.04, 0.03
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)  +  0.26 * I(x<0.086185)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.85
+
+Iteration 5
+Classifier h = I(x > 0.26046)
+Error = 0.40
+Alpha = 0.21
+Normalization Factor Z = 0.98
+Pi after normalization = 0.03, 0.07, 0.03, 0.03, 0.03, 0.04, 0.04, 0.02, 0.02, 0.02, 0.02, 0.02, 0.07, 0.03, 0.03, 0.07, 0.03, 0.07, 0.07, 0.03, 0.07, 0.03, 0.03, 0.03, 0.03
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)  +  0.26 * I(x<0.086185)  +  0.21 * I(x>0.26046)
+Boosted Classifier Error = 0.56
+Bound on Error = 0.84
+
+Iteration 6
+Classifier h = I(x < 0.3782415)
+Error = 0.39
+Alpha = 0.22
+Normalization Factor Z = 0.98
+Pi after normalization = 0.03, 0.09, 0.03, 0.03, 0.03, 0.05, 0.05, 0.02, 0.02, 0.02, 0.02, 0.02, 0.06, 0.04, 0.04, 0.06, 0.04, 0.06, 0.06, 0.04, 0.06, 0.04, 0.04, 0.04, 0.03
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)  +  0.26 * I(x<0.086185)  +  0.21 * I(x>0.26046)  +  0.22 * I(x<0.3782415)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.82
+
+Iteration 7
+Classifier h = I(x > 1.0506090000000001)
+Error = 0.39
+Alpha = 0.22
+Normalization Factor Z = 0.98
+Pi after normalization = 0.03, 0.08, 0.03, 0.03, 0.03, 0.04, 0.04, 0.02, 0.02, 0.02, 0.02, 0.02, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.04, 0.04, 0.04, 0.03
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)  +  0.26 * I(x<0.086185)  +  0.21 * I(x>0.26046)  +  0.22 * I(x<0.3782415)  +  0.22 * I(x>1.0506090000000001)
+Boosted Classifier Error = 0.46
+Bound on Error = 0.80
+
+Iteration 8
+Classifier h = I(x > -0.195966)
+Error = 0.39
+Alpha = 0.23
+Normalization Factor Z = 0.97
+Pi after normalization = 0.04, 0.06, 0.03, 0.03, 0.03, 0.06, 0.06, 0.02, 0.02, 0.02, 0.02, 0.02, 0.06, 0.04, 0.04, 0.06, 0.04, 0.06, 0.06, 0.04, 0.06, 0.03, 0.03, 0.03, 0.04
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)  +  0.26 * I(x<0.086185)  +  0.21 * I(x>0.26046)  +  0.22 * I(x<0.3782415)  +  0.22 * I(x>1.0506090000000001)  +  0.23 * I(x>-0.195966)
+Boosted Classifier Error = 0.56
+Bound on Error = 0.78
+
+Iteration 9
+Classifier h = I(x < 0.698907)
+Error = 0.41
+Alpha = 0.18
+Normalization Factor Z = 0.98
+Pi after normalization = 0.04, 0.07, 0.02, 0.02, 0.02, 0.07, 0.07, 0.02, 0.02, 0.02, 0.02, 0.02, 0.07, 0.04, 0.04, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.03, 0.03, 0.03, 0.04
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)  +  0.26 * I(x<0.086185)  +  0.21 * I(x>0.26046)  +  0.22 * I(x<0.3782415)  +  0.22 * I(x>1.0506090000000001)  +  0.23 * I(x>-0.195966)  +  0.18 * I(x<0.698907)
+Boosted Classifier Error = 0.50
+Bound on Error = 0.76
+
+Iteration 10
+Classifier h = I(x > 0.9307894999999999)
+Error = 0.40
+Alpha = 0.20
+Normalization Factor Z = 0.98
+Pi after normalization = 0.05, 0.06, 0.03, 0.03, 0.03, 0.06, 0.06, 0.02, 0.02, 0.02, 0.02, 0.02, 0.06, 0.05, 0.05, 0.04, 0.07, 0.04, 0.04, 0.05, 0.06, 0.03, 0.03, 0.03, 0.05
+Boosted Classifier: f(x) = 0.38 * I(x<1.3792905)  +  0.22 * I(x<0.3782415)  +  0.25 * I(x>0.26046)  +  0.26 * I(x<0.086185)  +  0.21 * I(x>0.26046)  +  0.22 * I(x<0.3782415)  +  0.22 * I(x>1.0506090000000001)  +  0.23 * I(x>-0.195966)  +  0.18 * I(x<0.698907)  +  0.20 * I(x>0.9307894999999999)
+Boosted Classifier Error = 0.52
+Bound on Error = 0.75

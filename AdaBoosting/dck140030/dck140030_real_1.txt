@@ -1,0 +1,50 @@
+Kaneria, Dhrupad Chandrakanth
+Iteration 1
+Classifier h = I(x < 1.5)
+G Error = 0.25
+C_Plus = 0.00, C_Minus = 0.00
+Normalization Factor Z = 1.00
+Pi after normalization = 0.25, 0.25, 0.25, 0.25
+f(x) = 0.25, -0.25, 0.25, 0.25
+Boosted Classifier Error = 0.50
+Bound on Error = 1.00
+
+Iteration 2
+Classifier h = I(x < 1.5)
+G Error = 0.25
+C_Plus = 0.00, C_Minus = 0.00
+Normalization Factor Z = 1.00
+Pi after normalization = 0.25, 0.25, 0.25, 0.25
+f(x) = 0.50, -0.50, 0.50, 0.50
+Boosted Classifier Error = 0.50
+Bound on Error = 1.00
+
+Iteration 3
+Classifier h = I(x < 1.5)
+G Error = 0.25
+C_Plus = 0.00, C_Minus = 0.00
+Normalization Factor Z = 1.00
+Pi after normalization = 0.25, 0.25, 0.25, 0.25
+f(x) = 0.75, -0.75, 0.75, 0.75
+Boosted Classifier Error = 0.50
+Bound on Error = 1.00
+
+Iteration 4
+Classifier h = I(x < 1.5)
+G Error = 0.25
+C_Plus = 0.00, C_Minus = 0.00
+Normalization Factor Z = 1.00
+Pi after normalization = 0.25, 0.25, 0.25, 0.25
+f(x) = 1.00, -1.00, 1.00, 1.00
+Boosted Classifier Error = 0.50
+Bound on Error = 1.00
+
+Iteration 5
+Classifier h = I(x < 1.5)
+G Error = 0.25
+C_Plus = 0.00, C_Minus = 0.00
+Normalization Factor Z = 1.00
+Pi after normalization = 0.25, 0.25, 0.25, 0.25
+f(x) = 1.25, -1.25, 1.25, 1.25
+Boosted Classifier Error = 0.50
+Bound on Error = 1.00

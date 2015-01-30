@@ -1,0 +1,50 @@
+Kaneria, Dhrupad Chandrakanth
+Iteration 1
+Classifier h = I(x < 0.20014)
+G Error = 0.35
+C_Plus = -0.14, C_Minus = 0.00
+Normalization Factor Z = 1.08
+Pi after normalization = 0.09, 0.11, 0.11, 0.11, 0.09, 0.09, 0.11, 0.09, 0.11, 0.09
+f(x) = -0.35, 0.35, 0.35, 0.35, -0.35, -0.35, 0.35, -0.35, 0.35, -0.35
+Boosted Classifier Error = 0.30
+Bound on Error = 1.08
+
+Iteration 2
+Classifier h = I(x < 0.20014)
+G Error = 0.35
+C_Plus = -0.07, C_Minus = 0.00
+Normalization Factor Z = 1.04
+Pi after normalization = 0.09, 0.11, 0.11, 0.11, 0.09, 0.09, 0.11, 0.09, 0.11, 0.09
+f(x) = -0.69, 0.69, 0.69, 0.69, -0.69, -0.69, 0.69, -0.69, 0.69, -0.69
+Boosted Classifier Error = 0.30
+Bound on Error = 1.12
+
+Iteration 3
+Classifier h = I(x < 0.20014)
+G Error = 0.34
+C_Plus = -0.04, C_Minus = 0.00
+Normalization Factor Z = 1.02
+Pi after normalization = 0.09, 0.11, 0.11, 0.11, 0.09, 0.09, 0.11, 0.09, 0.11, 0.09
+f(x) = -1.04, 1.04, 1.04, 1.04, -1.04, -1.04, 1.04, -1.04, 1.04, -1.04
+Boosted Classifier Error = 0.30
+Bound on Error = 1.14
+
+Iteration 4
+Classifier h = I(x < 0.20014)
+G Error = 0.34
+C_Plus = -0.02, C_Minus = 0.00
+Normalization Factor Z = 1.01
+Pi after normalization = 0.09, 0.11, 0.11, 0.11, 0.09, 0.09, 0.11, 0.09, 0.11, 0.09
+f(x) = -1.38, 1.38, 1.38, 1.38, -1.38, -1.38, 1.38, -1.38, 1.38, -1.38
+Boosted Classifier Error = 0.30
+Bound on Error = 1.15
+
+Iteration 5
+Classifier h = I(x < 0.20014)
+G Error = 0.34
+C_Plus = -0.01, C_Minus = 0.00
+Normalization Factor Z = 1.01
+Pi after normalization = 0.09, 0.11, 0.11, 0.11, 0.09, 0.09, 0.11, 0.09, 0.11, 0.09
+f(x) = -1.72, 1.72, 1.72, 1.72, -1.72, -1.72, 1.72, -1.72, 1.72, -1.72
+Boosted Classifier Error = 0.30
+Bound on Error = 1.16
